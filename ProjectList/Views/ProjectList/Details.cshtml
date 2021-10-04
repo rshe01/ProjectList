@@ -1,0 +1,42 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model IEnumerable<ProjectListData.Models.Member>
+
+@{
+    var name = ViewData["Name"];
+    var last = Model.LastOrDefault();
+}
+<body>
+    <div class="jumbotron">
+        <h1>@name</h1>
+        <p class="lead">lorem ipsum.</p>
+
+        <hr class="my-4">
+
+        @if (Model.Any())
+        {
+            <section>
+
+                @foreach (var item in Model)
+                {
+                    <a href="mailto:@Html.DisplayFor(x => item.Email)">
+                        @Html.DisplayFor(x => item.First_name)
+                        @Html.DisplayFor(x => item.Last_name)
+                    </a>
+                    @if (!item.Equals(last))
+                    {
+                        <span> | </span>
+                    }
+                }
+            </section>
+        }
+        else
+        {
+            <div>No current members in @name...</div>
+        }
+    </div>
+</body>

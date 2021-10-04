@@ -1,0 +1,19 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@{
+    var projmem = ViewData["ProjectMember"];
+}
+
+<div class="alert alert-danger" role="alert">
+    <p>Are you sure you want to delete ProjectMember ID @projmem?</p>
+    <div class="row">
+        <a class="btn btn-light" asp-action="Index">Cancel</a>
+        <form method="post" asp-controller="ProjectMembers" asp-action="Delete" asp-route-id="@projmem">
+            <button type="submit" class="btn btn-dark">Delete</button>
+        </form>
+    </div>
+</div>

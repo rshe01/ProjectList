@@ -1,0 +1,12 @@
+C:\Users\richard.she\Downloads\JLL_Projects\dotNetApps\ProjectListData\bin\Debug\net5.0\ProjectListData.deps.json
+C:\Users\richard.she\Downloads\JLL_Projects\dotNetApps\ProjectListData\bin\Debug\net5.0\ProjectListData.dll
+C:\Users\richard.she\Downloads\JLL_Projects\dotNetApps\ProjectListData\bin\Debug\net5.0\ref\ProjectListData.dll
+C:\Users\richard.she\Downloads\JLL_Projects\dotNetApps\ProjectListData\bin\Debug\net5.0\ProjectListData.pdb
+C:\Users\richard.she\Downloads\JLL_Projects\dotNetApps\ProjectListData\obj\Debug\net5.0\ProjectListData.csproj.AssemblyReference.cache
+C:\Users\richard.she\Downloads\JLL_Projects\dotNetApps\ProjectListData\obj\Debug\net5.0\ProjectListData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\richard.she\Downloads\JLL_Projects\dotNetApps\ProjectListData\obj\Debug\net5.0\ProjectListData.AssemblyInfoInputs.cache
+C:\Users\richard.she\Downloads\JLL_Projects\dotNetApps\ProjectListData\obj\Debug\net5.0\ProjectListData.AssemblyInfo.cs
+C:\Users\richard.she\Downloads\JLL_Projects\dotNetApps\ProjectListData\obj\Debug\net5.0\ProjectListData.csproj.CoreCompileInputs.cache
+C:\Users\richard.she\Downloads\JLL_Projects\dotNetApps\ProjectListData\obj\Debug\net5.0\ProjectListData.dll
+C:\Users\richard.she\Downloads\JLL_Projects\dotNetApps\ProjectListData\obj\Debug\net5.0\ref\ProjectListData.dll
+C:\Users\richard.she\Downloads\JLL_Projects\dotNetApps\ProjectListData\obj\Debug\net5.0\ProjectListData.pdb

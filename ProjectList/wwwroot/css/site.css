@@ -1,0 +1,190 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+}
+.teamCard {
+    margin-top: 25px;
+    width: 30%;
+}
+
+.teamCard h2 {
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+
+.teamCard h3 {
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+.img-box{
+    display:block;
+    height: 250px;
+    width:100%;
+    object-fit: cover;
+    object-position: 0 15%;
+}
+
+.title{
+    margin-bottom:25px;
+}
+
+.belowTitle{
+    margin-top: 4%;
+}
+
+.predawn {
+    background-image: linear-gradient(to right, rgb(255, 161, 127, .75), rgb(0, 34, 62, .75)), url('../img/mountain.jpg');
+    background-size: cover;
+}
+
+.dusk {
+    background-image: linear-gradient(to right, rgb(44, 62, 80, .75), rgb(253, 116, 108, .75)), url('../img/stars.jpg');
+    background-size: cover;
+}
+
+.jupiter {
+    background-image: linear-gradient(to right, rgb(43, 88, 118, .75), rgb(78, 67, 118, .75)), url('../img/waves.jpg');
+    background-size: cover;
+}
+
+.white-box {
+    background-color: white;
+    border-radius: 15px;
+    padding: 25px;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.team{
+    background-color:black;
+}
+
+.wave {
+    position: absolute;
+    background-image: url("../img/wave.png");
+    background-size: 1000px 65px;
+    bottom:0;
+    left:0;
+    width: 100%;
+    height: 65px;
+}
+
+.wave.wave1{
+    animation: animate 9s linear infinite;
+    opacity:1;
+    z-index:3;
+    animation-delay:-2s;
+    bottom:0;
+}
+
+.wave.wave2{
+    animation: animate 15s linear infinite;
+    opacity:.7;
+    z-index:2;
+    animation-delay:2s;
+    bottom:15px;
+}
+
+.wave.wave3{
+    animation: animate2 18s linear infinite;
+    opacity:.3;
+    z-index:1;
+    bottom:20px;
+}
+
+
+@keyframes animate{
+    0%{
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: 1000px;
+    }
+}
+
+@keyframes animate2 {
+    0% {
+        background-position-x: 1000px;
+    }
+
+    100% {
+        background-position-x: 0;
+    }
+}
